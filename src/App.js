@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header className="App-header">
-          <h1>Tour de Francia 2020.</h1>
+        <img src="https://www.procyclingstats.com/images/logo/bn/eh/tour-de-france-677.png" alt="this is the Logo of Tour" />
           <Nav {...{ navSelected, setNavSelect, tabItems }} />
         </header>
 
